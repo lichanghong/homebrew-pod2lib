@@ -5,7 +5,8 @@ function get_local_pods_list()
 create_lib_dir
 if [ ! -f podslist.txt ]; then
 echo -e "\033[32m 没发现已存在pod列表，从pbxproject文件获取: \033[0m"
-get_all_pods_list
+pbxPath="../Pods/Pods.xcodeproj/project.pbxproj"
+get_all_pods_list $pbxPath
 else
 echo -e "\033[32m pods列表为: \033[0m"
 while read line
@@ -68,6 +69,7 @@ create_lib_dir
 echo -e "\033[32m .....begin update all pods.... \033[0m" #绿色字
 # pods文件路径
 pbxPath=$1
+
 pbxproj=`cat "$pbxPath"`
 replace=`echo "$pbxproj" | sed 's/\/\*/wwwwww/g'`
 
