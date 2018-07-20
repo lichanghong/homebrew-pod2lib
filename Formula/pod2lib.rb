@@ -3,9 +3,9 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Pod2lib < Formula
   desc "test"
-  homepage "mytest"
-  url "https://github.com/lichanghong/homebrew-pod2lib/blob/master/Formula/pod2lib-0.1.0.tar.gz"
-  sha256 "1bbdc85415e57955d7f059aa1a3c099adea66e30cb15069fe672d4b3a5e19fb3"
+  homepage "lichanghong test"
+  url "https://github.com/lichanghong/homebrew-pod2lib/raw/master/Formula/pod2lib-0.1.0.tar.gz"
+  sha256 "0b3f6602c5782e11fdda9ab8a05b133a9f01aa84c975e7d0be093f2c873ad2b2"
   # depends_on "cmake" => :build
 
   def install
