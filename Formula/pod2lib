@@ -1,5 +1,4 @@
-# Merge Script
-
+#!/bin/sh
 # 1
 # Set bash script to exit immediately if any commands fail.
 set -e
