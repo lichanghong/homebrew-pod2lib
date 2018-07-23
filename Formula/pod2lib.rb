@@ -3,8 +3,8 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Pod2lib < Formula
   desc "iOS 开发中的cocoapod转为.a .h 静态库，为二进制化方案之一，cocoapod-package对pod编译有时会编译不通过，故此方案较为保险"
-  homepage "iOS 开发中的cocoapod转为.a .h 静态库，为二进制化方案之一，cocoapod-package对pod编译有时会编译不通过，故此方案较为保险"
-  url "https://github.com/lichanghong/homebrew-pod2lib/raw/master/Formula/pod2lib-0.1.3.tar.gz"：
+  homepage "iOS 开发中的cocoapod转为.a .h 静态库，为二进制化方案之一，cocoapod-package对pod编译有时会编译不通过，故此方案较为保险,debug和release可以分开配置路径"
+  url "https://github.com/lichanghong/homebrew-pod2lib/raw/master/Formula/pod2lib-0.1.3.tar.gz"
   sha256 "40577a9efb6a374cc7f6a31b333646ae94c60df8871131b24c4654461a610240"
   # depends_on "cmake" => :build
 
