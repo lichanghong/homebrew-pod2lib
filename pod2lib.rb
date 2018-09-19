@@ -4,15 +4,16 @@
 class Pod2lib < Formula
     desc "iOS 开发中的cocoapod转为.a .h 静态库，为二进制化方案之一，cocoapod-package对pod编译有时会编译不通过"
     homepage "iOS 开发中的cocoapod转为.a .h 静态库，为二进制化方案之一，cocoapod-package对pod编译有时会编译不通过，故此方案较为保险"
-    url "https://github.com/lichanghong/homebrew-pod2lib/blob/master/pod2lib.zip"
+    url "https://github.com/lichanghong/homebrew-pod2lib/blob/master/pod2lib-0.1.0.zip"
     version "0.1.0"
-#    sha256 "6e8ad72c08a0d95a046c9cc046ff84e80135b61c8767c536a66321866140b363"
+    sha256 "e11d19647bbea3a1d06d89510561a7c20164a0264c1a8137c8f128b992fb83ae"
   # depends_on "cmake" => :build
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
-    bin.install Dir["pod2lib/*"]
+    bin.install "pod2lib"
+    #Dir["*"]
 #    system "make", "install" # if this fails, try separate make/make install steps
   end
 
