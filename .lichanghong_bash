@@ -1,0 +1,16 @@
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+alias ga='git add .'
+alias gc='git commit -m '
+alias gr='git pull --rebase'
+alias gs='git status'
+alias gp='git push'
+alias gb='git branch'
+alias syapp='cd /Users/zftank/Documents/XYApplication/SYAppCore'
+alias mergedev='git checkout Dev; git merge App_7.6.0;echo "你现在Dev分支，修改代码请切换分支"'
+alias rmpodindex='rm ~/Library/Caches/CocoaPods/search_index.json'
+alias chpod='~/.lichanghong/chpod.sh'
+alias chpod_debug='~/.lichanghong/chpod_debug.sh'
+alias chcheck='~/.lichanghong/check/appstore_check.sh'
+alias pod2lib='~/.lichanghong/shell/pod2lib/pod2lib.sh'
